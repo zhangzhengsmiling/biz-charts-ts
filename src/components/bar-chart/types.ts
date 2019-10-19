@@ -94,7 +94,9 @@ type LegendPosition = 'left-top' | 'left-center' | 'left-bottom'|
                       'bottom-left' | 'bottom-center' | 'bottom-right' |
                       'bottom' | 'top' | 'left' | 'right';
 
-/*Legend配置 */
+/**
+ * isShow是否显示图例
+ */
 export interface ILegendOption {
   isShow?: boolean;
   title?: boolean;
